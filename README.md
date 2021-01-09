@@ -24,6 +24,11 @@ Please refer to the "Example Input Sheet" for an example of a properly formatted
 
 Next, modify the .env file with your GOLD username and password. Ensure that they are in quotations.
 
+  ```sh
+gold_username = "janesmith1"
+gold_password = "mysupersecretpassword"
+  ```
+
 Finally, run main.py! The print statements will tell you how far the program is along/what it is doing. When the script is done, there should be a new Excel sheet named "Output Sheet." See "Example Output Sheet."
 
 Please note that if you run the program again, the old sheet will be overwritten. So it will be best to copy the values onto a separate Excel sheet. Future development of this program will improve functionality.
