@@ -10,7 +10,7 @@ Python
 
 An IDE (I used PyCharm for this) to run the main.py script
 
-Some other stuff, not too sure yet. Maybe setting up a virutal environment? Installing the necessary Python libraries/frameworks? The venv from PyCharm is included so this may not be necessary. Not too sure.
+Some other stuff, not too sure yet. Maybe setting up a virutal environment? Installing the necessary Python libraries/frameworks? The venv from PyCharm is included so this may not be necessary?
 
 ## Using the Program
 
