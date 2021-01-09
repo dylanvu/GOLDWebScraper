@@ -2,19 +2,19 @@
 
 This is a Web Scraper to track the available course spaces of classes in any department in UCSB GOLD. The Web Scraper utilizes Selenium to log the user into GOLD and navigate to web pages and BeautifulSoup to parse though the HTML.
 
-## Prerequisites Before Using
+## Prerequisites Before Using the Program (more to come later)
 
 Microsoft Excel is required to edit .xlsx files and to view them.
 
 Python
 
-An IDE (I used PyCharm) to run the main.py script
+An IDE (I used PyCharm for this) to run the main.py script
 
-Some other stuff. Not too sure yet, maybe setting up a virutal environment? Installing the necessary Python libraries/frameworks? The .venv from PyCharm is included so this may not be necessary. Not too sure.
+Some other stuff, not too sure yet. Maybe setting up a virutal environment? Installing the necessary Python libraries/frameworks? The venv from PyCharm is included so this may not be necessary. Not too sure.
 
 ## Using the Program
 
-Open up the Excel file called "Input Sheet" and input the courses and departments that you are interested in.
+Open the Excel file called "Input Sheet" and input the courses and departments that you are interested in.
 
 It's important that the first row is only the shortened department name as seen on the GOLD dropdown menu. So, Chemical Engineering is CH E, Computer Science is CMPSC. etc.
 
