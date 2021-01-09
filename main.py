@@ -12,10 +12,10 @@ from openpyxl.styles import Font
 from functions import *
 
 # Set the template file path
-path = "Example Input and Outputs.xlsx"
-print("Loading up template Excel sheet")
+path = "Input Sheet.xlsx"
+print("Loading up Input Excel sheet")
 wb_obj = openpyxl.load_workbook(path)
-print("Template Excel sheet loaded. Analyzing departments and courses")
+print("Input Excel sheet loaded. Obtaining Courses to be Scraped")
 sheet_obj = wb_obj.active
 
 department_columns = []
@@ -29,7 +29,7 @@ while cell_obj.value is not None:
     col += 1    # Move to the next column
     cell_obj = sheet_obj.cell(row=1, column=col)
 
-print("Excel sheet courses analyzed")
+print("Courses Obtained.")
 # Set the driver to headless mode
 options = Options()
 options.add_argument('--headless')
@@ -173,7 +173,7 @@ for num in range(0, len(department_columns)):
     print(f"{department_columns[num]} is done.")
 
 print("Script Complete!")
-scraped_course_wb.save("Test Sheet.xlsx")
+scraped_course_wb.save("Output Sheet.xlsx")
 
 # what's next? Ideas for development?
     # figure out how to generalize accessing the path to the template file? make it more user friendly, somehow. May be able to only be done after converting to a .exe
